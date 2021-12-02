@@ -1,14 +1,19 @@
 # PHYS449
 
 ## Dependencies
-
-- json
+- csv
 - numpy
+- random
+- torch
+- nn_gen
+- matplotlib
+- os
+- argparse
 
 ## Running `main.py`
 
 To run `main.py`, use
 
 ```sh
-python main.py
+main.py --data data\\even_mnist.csv --lr 0.01 --batch 100 --outputs 10 --epoch 1000
 ```
